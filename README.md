@@ -54,4 +54,4 @@ git clone https://github.com/anotherGingerBrave/Ginger-Tool.git
 bash ~/Ginger-Tool/gingertool.bash
 ```
 
-If you somehow find this and the process doesn't work, then it's because what i wrote is misinformation. Just know i'm going to test and fix it, maybe 💀
+I was worried with possible misinformation before, but don't worry, i tested it, and it's working
