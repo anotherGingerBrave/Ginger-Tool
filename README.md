@@ -55,3 +55,25 @@ bash ~/Ginger-Tool/gingertool.bash
 ```
 
 I was worried with possible misinformation before, but don't worry, i tested it, and it's working
+
+# Update log
+The (text) Meme Stealing License Update 🗿
+
+Added meme stealing license
+
+Just a quick ref because i'm lazy to write a big update log full of commands
+
+Msl Qmsl Men Melman Merch Mei Smsl
+
+Figure out what they do yourself :troll:
+
+
+Also finally comes with the file that no one asked about
+
+
+# Known Issues
+FORGETTING TO CHANGE THE VERSION NUMBER ISGWJFUWBHFKDGWKF
+
+Unary operator error which i can't solve
+
+Forgetting to add the file which the update promised 🗿
