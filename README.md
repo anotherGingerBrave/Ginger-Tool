@@ -77,3 +77,6 @@ FORGETTING TO CHANGE THE VERSION NUMBER ISGWJFUWBHFKDGWKF
 Unary operator error which i can't solve
 
 Forgetting to add the file which the update promised 🗿
+
+# Extra
+Discord: https://discord.gg/scqgtXvYXa
