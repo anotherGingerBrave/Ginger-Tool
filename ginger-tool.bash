@@ -8,6 +8,7 @@ msln=""
 msll=""
 mslr=""
 msli=""
+tv=""
 function logp(){
 	logt=1
 	if [ $logt -eq 1 ]
@@ -27,10 +28,17 @@ do
 		echo "say..."
 		printf "G:[say]$ "
 		read arg1
-		echo "
+		if [ $arg1 != "tv" ]
+		then
+			echo "
 $arg1
 "
 		logp "say $arg1"
+		else
+			echo "
+$tv
+"
+		logp "say \"the variable\""
 	fi
 	if [ $cmd == "log" ]
 	then
@@ -89,17 +97,13 @@ Gif: add files to .gingertool directory"
 	fi
 	if [ $cmd == "ve" ]
 	then
-		echo "Version 0.4.0"
+		echo "Version 0.6.-1"
 	fi
 	if [ $cmd == "vel" ]
 	then
-		echo "The (text) Meme Stealing License Update 🗿
-Added meme stealing license
-Just a quick ref because i'm lazy to write a big update log full of commands
-Msl Qmsl Men Melman Merch Mei
-Figure out what they do yourself :troll:
-
-Also finally comes with the file that no one asked about"
+		echo "Added \"the variable\"
+Just stores a useless value you can use
+Unary operator bug not fixed"
 	fi
 	if [ $cmd == "gif" ]
 	then
@@ -187,5 +191,12 @@ ID: $msli"
 		printf "G:[mei]$ "
 		read mei
 		msli=$mei
+	fi
+	if [ $cmd == "tv" ]
+	then
+		echo "Set value to"
+		printf "G:[tv]$ "
+		read arg1
+		tv=$arg1
 	fi
 done
